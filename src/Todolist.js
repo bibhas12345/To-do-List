@@ -46,7 +46,7 @@ function Todolist() {
     <div className=' h-screen bg-gradient-to-r from-rose-600/30 via-white to-yellow-600/30'>
       <div className="max-w-md mx-auto flex flex-col justify-center h-[500px]">
         <div>
-          <img src={ist} className='ml-12 h-[200px] w-[320px] ' />
+          <img src={ist} className='ml-12 h-[200px] w-[320px] ' alt='/' />
         </div>
         <form onSubmit={handleSubmit} className="flex mt-4">
           <input
